@@ -1,19 +1,19 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles({
   navbar: {
     backgroundColor: '#222222',
     '& a': {
       color: '#ffffff',
-      marginLeft: 10
-    }
+      marginLeft: 10,
+    },
   },
   main: {
-    minHeight: '80vh'
+    minHeight: '80vh',
   },
   footer: {
-    textAlign: 'center'
-  }
-})
+    textAlign: 'center',
+  },
+});
 
-export default useStyles
+export default useStyles;
