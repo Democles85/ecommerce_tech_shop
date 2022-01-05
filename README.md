@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-###Clone the project
+### Clone the project
 1. Click on the green button "Code" and download zip OR
 
 2. You need to have git for windows installed
