@@ -5,12 +5,19 @@ import useStyles from '../utils/styles';
 
 function Layout({ children }) {
   const classes = useStyles();
-
+  /*TODO:
+      1. Add A Link to Homepage
+      2. Add a Cart Link
+      3. Add a Login Link
+      using:
+      NextLink and Link
+  */
   return (
     <div>
       <Head>
         <title>Techocles</title>
       </Head>
+      {/* insert here */}
       <AppBar position="static" className={classes.navbar}>
         <Toolbar>
           <Typography>Techocles</Typography>
