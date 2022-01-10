@@ -14,6 +14,16 @@ const useStyles = makeStyles({
   footer: {
     textAlign: 'center',
   },
+  brand: {
+    fontWeight: 'bold',
+    fontSize: '1.5rem',
+  },
+  brand_link: {
+    textDecoration: 'none!important',
+  },
+  flexGrow: {
+    flexGrow: 1,
+  },
 });
 
 export default useStyles;

@@ -2,6 +2,7 @@ const data = {
   products: [
     {
       name: 'Dell Optiplex 7010MT',
+      slug: 'dell-optiplex-7010MT',
       category: 'Workstation',
       image: '/images/dell_workstation_optiplex_7010MT.jpg',
       price: '250',
@@ -14,6 +15,7 @@ const data = {
     },
     {
       name: 'HP Microstation E8500',
+      slug: 'hp-microstation-e8500',
       category: 'Workstation',
       image: '/images/hp_workstation_microtower_E8500.jpg',
       price: '124.99',
@@ -26,6 +28,7 @@ const data = {
     },
     {
       name: 'HP Microstation MT3500',
+      slug: 'hp-microstation-e8500',
       category: 'Workstation',
       image: '/images/hp_workstation_microtower_3500.jpg',
       price: '201.99',
@@ -38,6 +41,7 @@ const data = {
     },
     {
       name: 'MSI MAG Infinite S',
+      slug: 'msi-mag-intinite-s',
       category: 'Gaming',
       image: '/images/hp_gamingstation_msiMag_InfiniteS.jpg',
       price: '1250',
