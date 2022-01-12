@@ -11,8 +11,10 @@ import {
 import NextLink from 'next/link';
 import Layout from '../components/Layout';
 import data from '../utils/data';
+import useStyles from '../pages/styles';
 
 export default function Home() {
+  const classes = useStyles();
   return (
     <Layout>
       <div>
@@ -29,13 +31,17 @@ export default function Home() {
                       title={product.name}
                     ></CardMedia>
                     <CardContent>
-                      <Typography>{product.name}</Typography>
+                      <Typography className={classes.main}>
+                        {product.name}
+                      </Typography>
                     </CardContent>
                   </CardActionArea>
                 </NextLink>
-                <CardActions>
-                  <Typography>${product.price}</Typography>
-                  <Button size="small" color="primary">
+                <CardActions className={classes.AddToCartButton}>
+                  <Typography className={classes.main}>
+                    ${product.price}
+                  </Typography>
+                  <Button size="large" color="primary">
                     Add to cart
                   </Button>
                 </CardActions>
