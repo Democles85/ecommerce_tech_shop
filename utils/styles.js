@@ -24,6 +24,38 @@ const useStyles = makeStyles({
   flexGrow: {
     flexGrow: 1,
   },
+  productNotFound: {
+    position: 'fixed',
+    display: 'flex',
+    height: '100%',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: 40,
+  },
+  section: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  productName: {
+    fontWeight: 'bold',
+    fontFamily: 'Be Vietnam Pro',
+    fontSize: 18,
+  },
+  productInfo: {
+    fontFamily: 'Be Vietnam Pro',
+  },
+  addToCart: {
+    fontFamily: 'Be Vietnam Pro',
+  },
+  main: {
+    fontFamily: 'Be Vietnam Pro',
+  },
+  addToCartButton: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
 });
 
 export default useStyles;

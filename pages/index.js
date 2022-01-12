@@ -11,7 +11,7 @@ import {
 import NextLink from 'next/link';
 import Layout from '../components/Layout';
 import data from '../utils/data';
-import useStyles from '../pages/styles';
+import useStyles from '../utils/styles';
 
 export default function Home() {
   const classes = useStyles();
@@ -37,7 +37,7 @@ export default function Home() {
                     </CardContent>
                   </CardActionArea>
                 </NextLink>
-                <CardActions className={classes.AddToCartButton}>
+                <CardActions className={classes.addToCartButton}>
                   <Typography className={classes.main}>
                     ${product.price}
                   </Typography>

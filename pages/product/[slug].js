@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import data from '../../utils/data';
-import useStyles from '../../pages/product/styles';
+import useStyles from '../../utils/styles';
 import Layout from '../../components/Layout';
 import NextLink from 'next/link';
 import {
