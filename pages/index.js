@@ -31,17 +31,17 @@ export default function Home() {
                       title={product.name}
                     ></CardMedia>
                     <CardContent>
-                      <Typography className={classes.main}>
+                      <Typography component={'h1'} variant="h1">
                         {product.name}
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                 </NextLink>
                 <CardActions className={classes.addToCartButton}>
-                  <Typography className={classes.main}>
+                  <Typography className={classes.priceComponent}>
                     ${product.price}
                   </Typography>
-                  <Button size="large" color="primary">
+                  <Button size="large" color="secondary">
                     Add to cart
                   </Button>
                 </CardActions>

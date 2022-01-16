@@ -50,7 +50,7 @@ function ProductScreen() {
         <Grid item md={3} xs={12}>
           <List>
             <ListItem>
-              <Typography component={'h1'} className={classes.productName}>
+              <Typography component={'h1'} variant="h1">
                 {product.name}
               </Typography>
             </ListItem>
@@ -103,7 +103,7 @@ function ProductScreen() {
                 </Grid>
               </ListItem>
               <ListItem>
-                <Button fullWidth variant="contained" color="inherit">
+                <Button fullWidth variant="contained" color="primary">
                   <Typography className={classes.addToCart}>
                     Add to cart{' '}
                   </Typography>

@@ -37,18 +37,13 @@ const useStyles = makeStyles({
     marginTop: 10,
     marginBottom: 10,
   },
-  productName: {
-    fontWeight: 'bold',
-    fontFamily: 'Be Vietnam Pro',
-    fontSize: 18,
-  },
   productInfo: {
     fontFamily: 'Be Vietnam Pro',
   },
   addToCart: {
     fontFamily: 'Be Vietnam Pro',
   },
-  main: {
+  priceComponent: {
     fontFamily: 'Be Vietnam Pro',
   },
   addToCartButton: {
